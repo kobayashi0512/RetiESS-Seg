@@ -1,0 +1,34 @@
+{
+  "config": {
+    "data_root": "data/tian_octrima/extracted/FiletoShareforPONE",
+    "output": "results/tian_ablation_shift_only",
+    "epochs": 120,
+    "learning_rate": 0.001,
+    "seed": 20260831,
+    "device": "cpu",
+    "image_height": 128,
+    "image_width": 256,
+    "model_variant": "plain",
+    "shape_weight": 0.0,
+    "augment": true,
+    "max_shift": 6,
+    "disable_shift": false,
+    "disable_appearance": true
+  },
+  "summary": {
+    "retiess_seg": {
+      "folds": 10,
+      "volume_level_mae_px_mean": 6.031174098607153,
+      "volume_level_mae_px_sd": 1.4908617561106987,
+      "mean_test_ess": 1.4507782101631164,
+      "mean_duplicate_ess": 1.4480285167694091
+    },
+    "slicecnn": {
+      "folds": 10,
+      "volume_level_mae_px_mean": 6.042518824338913,
+      "volume_level_mae_px_sd": 1.5102674897770068,
+      "mean_test_ess": 1.450787901878357,
+      "mean_duplicate_ess": 1.4480387091636657
+    }
+  }
+}

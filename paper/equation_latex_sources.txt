@@ -1,0 +1,4 @@
+equation_1_softargmax: \hat{y}_{i,b,x}=\sum_{v=1}^{H}v\,\mathrm{softmax}(\mathbf{H}_{i,b,:,x})_v
+equation_2_correlation: R_{ij}=\frac{1}{2}\exp\left[-\frac{(t_i-t_j)^2}{2\sigma_t^2}\right]+\frac{1}{2}\exp\left[-\frac{\Vert\mathbf{z}_i-\mathbf{z}_j\Vert_2^2}{2\sigma_z^2}\right]
+equation_3_ess: n_{\mathrm{eff}}=(\mathbf{w}^{\top}\mathbf{R}\mathbf{w})^{-1},\qquad \mathbf{1}^{\top}\mathbf{w}=1,\quad \mathbf{w}\succeq0
+equation_4_objective: \mathcal{L}=\mathcal{L}_{\mathrm{seg}}+0.35\,\mathrm{sg}\!\left(\frac{n_{\mathrm{eff}}}{m}\right)\mathcal{L}_{\Delta}

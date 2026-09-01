@@ -1,0 +1,14 @@
+{
+  "means": {
+    "boundary_1_mae_px": 5.423289823532104,
+    "boundary_2_mae_px": 6.75708122253418,
+    "boundary_3_mae_px": 5.120730519294739,
+    "boundary_4_mae_px": 5.153043293952942,
+    "boundary_5_mae_px": 4.949931883811951,
+    "boundary_6_mae_px": 6.096996426582336,
+    "boundary_7_mae_px": 6.921781396865844,
+    "boundary_8_mae_px": 8.386734318733215
+  },
+  "folds": 10,
+  "source_nested_results": "results/tian_nested_augmentation"
+}

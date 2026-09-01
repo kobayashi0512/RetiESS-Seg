@@ -1,0 +1,26 @@
+{
+  "config": {
+    "data_root": "data/tian_octrima/extracted/FiletoShareforPONE",
+    "output": "results/tian_loo_seed_20260902",
+    "epochs": 60,
+    "learning_rate": 0.001,
+    "seed": 20260902,
+    "device": "auto"
+  },
+  "summary": {
+    "retiess_seg": {
+      "folds": 10,
+      "volume_level_mae_px_mean": 11.97261253092438,
+      "volume_level_mae_px_sd": 4.827907589432617,
+      "mean_test_ess": 1.450607454776764,
+      "mean_duplicate_ess": 1.447852611541748
+    },
+    "slicecnn": {
+      "folds": 10,
+      "volume_level_mae_px_mean": 11.995404970832169,
+      "volume_level_mae_px_sd": 4.824394641983939,
+      "mean_test_ess": 1.4506085634231567,
+      "mean_duplicate_ess": 1.4478537321090699
+    }
+  }
+}

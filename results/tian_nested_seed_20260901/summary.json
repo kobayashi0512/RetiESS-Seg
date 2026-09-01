@@ -1,0 +1,19 @@
+{
+  "protocol": "nested volume-level selection; no held-out outer volume participates in candidate selection",
+  "candidate_protocols": [
+    "plain",
+    "training-only shift/contrast/noise augmentation"
+  ],
+  "outer_folds": 10,
+  "mean_mae_px": 5.928535533836111,
+  "sd_mae_px": 2.1210596838776357,
+  "augmentation_selected_folds": 5,
+  "config": {
+    "data_root": "data/tian_octrima/extracted/FiletoShareforPONE",
+    "output": "results/tian_nested_seed_20260901",
+    "inner_epochs": 60,
+    "outer_epochs": 120,
+    "seed": 20260901,
+    "device": "auto"
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "scope": "complete 49-record, 26-patient AFIO archive; 5-fold patient-disjoint three-class extension",
+  "label_order": [
+    "no",
+    "yes",
+    "uncertain"
+  ],
+  "fold_patient_groups": [
+    [
+      "P1",
+      "P14",
+      "P20",
+      "P24",
+      "P8"
+    ],
+    [
+      "P10",
+      "P19",
+      "P2",
+      "P25",
+      "P9"
+    ],
+    [
+      "P11",
+      "P16",
+      "P22",
+      "P4",
+      "P17",
+      "P5"
+    ],
+    [
+      "P12",
+      "P15",
+      "P23",
+      "P26",
+      "P3"
+    ],
+    [
+      "P13",
+      "P18",
+      "P21",
+      "P6",
+      "P7"
+    ]
+  ],
+  "summary": {
+    "fundus": {
+      "folds": 5,
+      "accuracy": 0.3866666666666666,
+      "balanced_accuracy": 0.39222222222222225,
+      "macro_f1": 0.3530687830687831
+    },
+    "oct": {
+      "folds": 5,
+      "accuracy": 0.5911111111111111,
+      "balanced_accuracy": 0.5388888888888889,
+      "macro_f1": 0.48632774632774634
+    },
+    "fusion": {
+      "folds": 5,
+      "accuracy": 0.5311111111111111,
+      "balanced_accuracy": 0.5766666666666667,
+      "macro_f1": 0.5068253968253968
+    }
+  },
+  "config": {
+    "features": "features/afio_resnet18_complete.pt",
+    "output": "results/afio_groupcv_metricfixed",
+    "epochs": 300,
+    "seed": 20260831
+  },
+  "warning": "Exploratory 2D multimodal extension; not external validation of 3D OCT segmentation."
+}

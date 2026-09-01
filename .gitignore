@@ -1,0 +1,17 @@
+data/
+features/
+checkpoints/
+logs/
+tmp/
+.venv/
+__pycache__/
+*.py[cod]
+*.pt
+*.pth
+*.npy
+*.npz
+*.mat
+*.zip
+.DS_Store
+.~lock.*
+.~*

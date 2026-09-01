@@ -1,0 +1,89 @@
+{
+  "dataset": "Tian OCTRIMA PLOS ONE supplementary release",
+  "dataset_policy": "all ten released volumes are loaded; no subject or slice subset is permitted",
+  "volume_count": 10,
+  "slice_count": 100,
+  "annotation": "eight retinal layer boundaries, two independent manual observers",
+  "volumes": [
+    {
+      "subject_id": "Subject1",
+      "slices": 10,
+      "boundaries": 8,
+      "native_height": 496,
+      "native_width": 610,
+      "observer1_observer2_mae_px": 1.5049777657259256
+    },
+    {
+      "subject_id": "Subject2",
+      "slices": 10,
+      "boundaries": 8,
+      "native_height": 496,
+      "native_width": 644,
+      "observer1_observer2_mae_px": 1.151673694839701
+    },
+    {
+      "subject_id": "Subject3",
+      "slices": 10,
+      "boundaries": 8,
+      "native_height": 496,
+      "native_width": 610,
+      "observer1_observer2_mae_px": 1.4654620585497469
+    },
+    {
+      "subject_id": "Subject4",
+      "slices": 10,
+      "boundaries": 8,
+      "native_height": 496,
+      "native_width": 633,
+      "observer1_observer2_mae_px": 1.4697028405498713
+    },
+    {
+      "subject_id": "Subject5",
+      "slices": 10,
+      "boundaries": 8,
+      "native_height": 496,
+      "native_width": 633,
+      "observer1_observer2_mae_px": 1.2984224315732718
+    },
+    {
+      "subject_id": "Subject6",
+      "slices": 10,
+      "boundaries": 8,
+      "native_height": 496,
+      "native_width": 616,
+      "observer1_observer2_mae_px": 1.3562773657031357
+    },
+    {
+      "subject_id": "Subject7",
+      "slices": 10,
+      "boundaries": 8,
+      "native_height": 496,
+      "native_width": 627,
+      "observer1_observer2_mae_px": 1.2993913481477648
+    },
+    {
+      "subject_id": "Subject8",
+      "slices": 10,
+      "boundaries": 8,
+      "native_height": 496,
+      "native_width": 610,
+      "observer1_observer2_mae_px": 1.3936998811550438
+    },
+    {
+      "subject_id": "Subject9",
+      "slices": 10,
+      "boundaries": 8,
+      "native_height": 496,
+      "native_width": 543,
+      "observer1_observer2_mae_px": 1.2283213692717254
+    },
+    {
+      "subject_id": "Subject10",
+      "slices": 10,
+      "boundaries": 8,
+      "native_height": 496,
+      "native_width": 633,
+      "observer1_observer2_mae_px": 1.1367323028389364
+    }
+  ]
+}
